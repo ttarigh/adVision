@@ -29,12 +29,7 @@ body {
     margin: 10px auto;
     padding: 10px;
   }
-  
-  #webcam-container video {
-    width: 200px;
-    height: 200px;
-  }
-  
+ 
   #label-container div {
     margin: 5px;
   }
