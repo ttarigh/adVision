@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: yellow;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  #startButton{
+    background-color: yellow;
+    
+    border: solid;
+    padding: 5px;
+  }
+
+  #startButton:hover{
+    background-color: rgb(255, 85, 184);
+    color: white;
+    border: solid;
+    border-color: black
+  }
+  
+  #webcam-container, #label-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  #webcam-container video {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #label-container div {
+    margin: 5px;
+  }
+  
